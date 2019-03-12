@@ -19,8 +19,8 @@ from pyspark import SparkConf
 
 conf = SparkConf().setAppName("PinkMST").setMaster("local[1]").set("spark.cores.max","12").set("executor-memory","8g")
 
-filePath = "hdfs://10.3.40.35:9000/yongrl/data.txt"
-hadoop_master ='hdfs://10.3.40.35:9000'
+filePath = "hdfs://************:9000/yongrl/data.txt"
+hadoop_master ='hdfs://************5:9000'
 
 
 class DataSpliter():
