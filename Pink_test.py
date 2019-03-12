@@ -92,13 +92,13 @@ def getLeftId(partId,rightId):
 
 
 # main process
-hadoop_master ='hdfs://10.3.40.35:9000'
+hadoop_master ='hdfs://************:9000'
 
 K=8
 numDataSplits = 4
 idPartitionFilesLoc='/yongrl/idPartition'
 dataParitionFilesLoc='/yongrl/output'
-filePath = "hdfs://10.3.40.35:9000/yongrl/pay_money_21.csv"
+filePath = "hdfs://************:9000/yongrl/pay_money_21.csv"
 
 start = time.time()
 
